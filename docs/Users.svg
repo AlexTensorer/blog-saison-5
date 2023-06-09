@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="496" height="188" viewBox="0 0 496 188" xmlns="http://www.w3.org/2000/svg">
+<rect id="frame" x="0" y="0" width="496" height="188" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association crée -->
+<g>
+	<line x1="44" y1="94" x2="132" y2="94" stroke="#d6604d" stroke-width="2"/>
+	<text x="84" y="111" fill="#2166ac" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="225" y1="94" x2="132" y2="94" stroke="#d6604d" stroke-width="2"/>
+	<text x="159" y="111" fill="#2166ac" font-family="Verdana" font-size="12">1,1</text>
+	<g>
+		<path d="M139 69 a14 14 90 0 1 14 14 V94 h-42 V83 a14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<path d="M153 94 v11 a14 14 90 0 1 -14 14 H125 a14 14 90 0 1 -14 -14 V94 H42" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="111" y="69" width="42" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+		<line x1="111" y1="94" x2="153" y2="94" stroke="#d6604d" stroke-width="1"/>
+		<text x="119" y="86.75" fill="#000" font-family="Verdana" font-size="12">crée</text>
+	</g>
+</g>
+
+<!-- Association detient -->
+<g>
+	<line x1="437" y1="94" x2="326" y2="94" stroke="#d6604d" stroke-width="2"/>
+	<text x="360" y="111" fill="#2166ac" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="225" y1="94" x2="326" y2="94" stroke="#d6604d" stroke-width="2"/>
+	<text x="270" y="111" fill="#2166ac" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M341 69 a14 14 90 0 1 14 14 V94 h-58 V83 a14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<path d="M355 94 v11 a14 14 90 0 1 -14 14 H311 a14 14 90 0 1 -14 -14 V94 H58" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="297" y="69" width="58" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+		<line x1="297" y1="94" x2="355" y2="94" stroke="#d6604d" stroke-width="1"/>
+		<text x="305" y="86.75" fill="#000" font-family="Verdana" font-size="12">detient</text>
+	</g>
+</g>
+
+<!-- Entity user -->
+<g>
+	<g>
+		<rect x="9" y="9" width="70" height="25" fill="#92c5de" stroke="#92c5de" stroke-width="0" opacity="1"/>
+		<rect x="9" y="34" width="70" height="145" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0" opacity="1"/>
+		<rect x="9" y="9" width="70" height="170" fill="none" stroke="#4393c3" stroke-width="2" opacity="1"/>
+		<line x1="9" y1="34" x2="79" y2="34" stroke="#4393c3" stroke-width="1"/>
+	</g>
+	<text x="31" y="26.75" fill="#000" font-family="Verdana" font-size="12">user</text>
+	<text x="14" y="51.8" fill="#000" font-family="Verdana" font-size="12">code user</text>
+	<line x1="14" y1="54" x2="73" y2="54" stroke="#000" stroke-width="1"/>
+	<text x="14" y="68.8" fill="#000" font-family="Verdana" font-size="12">prenom</text>
+	<text x="14" y="85.8" fill="#000" font-family="Verdana" font-size="12">nom</text>
+	<text x="14" y="102.8" fill="#000" font-family="Verdana" font-size="12">email</text>
+	<text x="14" y="119.8" fill="#000" font-family="Verdana" font-size="12">password</text>
+	<text x="14" y="136.8" fill="#000" font-family="Verdana" font-size="12">role</text>
+	<text x="14" y="153.8" fill="#000" font-family="Verdana" font-size="12">pseudo</text>
+	<text x="14" y="170.8" fill="#000" font-family="Verdana" font-size="12">avatar</text>
+</g>
+
+<!-- Entity article -->
+<g>
+	<g>
+		<rect x="185" y="26" width="80" height="25" fill="#92c5de" stroke="#92c5de" stroke-width="0" opacity="1"/>
+		<rect x="185" y="51" width="80" height="111" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0" opacity="1"/>
+		<rect x="185" y="26" width="80" height="136" fill="none" stroke="#4393c3" stroke-width="2" opacity="1"/>
+		<line x1="185" y1="51" x2="265" y2="51" stroke="#4393c3" stroke-width="1"/>
+	</g>
+	<text x="206" y="43.75" fill="#000" font-family="Verdana" font-size="12">article</text>
+	<text x="190" y="68.8" fill="#000" font-family="Verdana" font-size="12">code article</text>
+	<line x1="190" y1="71" x2="260" y2="71" stroke="#000" stroke-width="1"/>
+	<text x="190" y="85.8" fill="#000" font-family="Verdana" font-size="12">title</text>
+	<text x="190" y="102.8" fill="#000" font-family="Verdana" font-size="12">sous titre</text>
+	<text x="190" y="119.8" fill="#000" font-family="Verdana" font-size="12">description</text>
+	<text x="190" y="136.8" fill="#000" font-family="Verdana" font-size="12">auteur</text>
+	<text x="190" y="153.8" fill="#000" font-family="Verdana" font-size="12">résumé</text>
+</g>
+
+<!-- Entity categorie -->
+<g>
+	<g>
+		<rect x="387" y="52" width="100" height="25" fill="#92c5de" stroke="#92c5de" stroke-width="0" opacity="1"/>
+		<rect x="387" y="77" width="100" height="59" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0" opacity="1"/>
+		<rect x="387" y="52" width="100" height="84" fill="none" stroke="#4393c3" stroke-width="2" opacity="1"/>
+		<line x1="387" y1="77" x2="487" y2="77" stroke="#4393c3" stroke-width="1"/>
+	</g>
+	<text x="409" y="69.75" fill="#000" font-family="Verdana" font-size="12">categorie</text>
+	<text x="392" y="94.8" fill="#000" font-family="Verdana" font-size="12">code categorie</text>
+	<line x1="392" y1="97" x2="481" y2="97" stroke="#000" stroke-width="1"/>
+	<text x="392" y="111.8" fill="#000" font-family="Verdana" font-size="12">nom</text>
+	<text x="392" y="128.8" fill="#000" font-family="Verdana" font-size="12">couleur</text>
+</g>
+</svg>

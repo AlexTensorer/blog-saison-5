@@ -1,0 +1,10 @@
+%%mocodo
+:
+user: code user, prenom, nom, email, password, role, pseudo, avatar
+:
+article: code article, title, sous titre, description, auteur, résumé, #code user->user->code user
+:
+detient: #code categorie->categorie->code categorie, _#code article->article->code article
+:
+categorie: code categorie, nom, couleur
+:

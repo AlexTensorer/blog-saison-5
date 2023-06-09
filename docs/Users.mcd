@@ -1,0 +1,5 @@
+user: code user, prenom, nom, email, password, role, pseudo, avatar
+crée, 0N user, 11 article
+article: code article, title, sous titre, description, auteur, résumé
+detient, 0N categorie, 0N article
+categorie: code categorie, nom, couleur

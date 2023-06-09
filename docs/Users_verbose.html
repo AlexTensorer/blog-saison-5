@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+  #mld strong { font-weight: bold }
+  #mld i { font-style: italic }
+  #mld ul { list-style-type:square; margin: 0 0 1em 2em }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <details><summary><span class='relation'>article</span> (
+    <span title='primary_key (None)' class='primary'>code article</span>,
+    <span title='normal_attribute (None)' class='normal'>title</span>,
+    <span title='normal_attribute (None)' class='normal'>sous titre</span>,
+    <span title='normal_attribute (None)' class='normal'>description</span>,
+    <span title='normal_attribute (None)' class='normal'>auteur</span>,
+    <span title='normal_attribute (None)' class='normal'>résumé</span>,
+    <span title='foreign_key (user)' class='foreign'>#code user</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code article</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>article</i>.</li>
+    <li>Les champs <i>title</i>, <i>sous titre</i>, <i>description</i>, <i>auteur</i> et <i>résumé</i> étaient déjà de simples attributs de l'entité <i>article</i>.</li>
+    <li>Le champ <i>code user</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>crée</i> à partir de l'entité <i>user</i> en perdant son caractère identifiant.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>categorie</span> (
+    <span title='primary_key (None)' class='primary'>code categorie</span>,
+    <span title='normal_attribute (None)' class='normal'>nom</span>,
+    <span title='normal_attribute (None)' class='normal'>couleur</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code categorie</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>categorie</i>.</li>
+    <li>Les champs <i>nom</i> et <i>couleur</i> étaient déjà de simples attributs de l'entité <i>categorie</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>detient</span> (
+    <span title='primary_foreign_key (categorie)' class='foreign primary'>#code categorie</span>,
+    <span title='primary_foreign_key (article)' class='foreign primary'>#code article</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code categorie</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>categorie</i>.</li>
+    <li>Le champ <i>code article</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>article</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>user</span> (
+    <span title='primary_key (None)' class='primary'>code user</span>,
+    <span title='normal_attribute (None)' class='normal'>prenom</span>,
+    <span title='normal_attribute (None)' class='normal'>nom</span>,
+    <span title='normal_attribute (None)' class='normal'>email</span>,
+    <span title='normal_attribute (None)' class='normal'>password</span>,
+    <span title='normal_attribute (None)' class='normal'>role</span>,
+    <span title='normal_attribute (None)' class='normal'>pseudo</span>,
+    <span title='normal_attribute (None)' class='normal'>avatar</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code user</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>user</i>.</li>
+    <li>Les champs <i>prenom</i>, <i>nom</i>, <i>email</i>, <i>password</i>, <i>role</i>, <i>pseudo</i> et <i>avatar</i> étaient déjà de simples attributs de l'entité <i>user</i>.</li>
+  </ul></details>
+</div>
+
+</div>
+</body>
+</html>
